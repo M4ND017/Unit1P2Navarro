@@ -16,6 +16,8 @@ public class FollowPlayerX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+    
         transform.position = plane.transform.position + offset;
     }
 }
+
